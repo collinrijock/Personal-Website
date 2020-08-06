@@ -5,9 +5,5 @@ read msg
 git commit -am "'$msg'"
 git push
 echo "Changes pushed"
-ssh collin@collinrijock.dev
-cd /var/www/collinrijock.dev/Personal-Website
-git pull
-npm run build
-exit
+ssh collin@collinrijock.dev 'bash -s' < serverUpdate.sh
 echo "Changes deployed"

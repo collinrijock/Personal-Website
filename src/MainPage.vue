@@ -1,7 +1,7 @@
 <template>
      <div id="main-page">
           <img src="./assets/cpr_logo.svg"></img>
-          <h1>Collin Rijock</h1>
+          <h1>Collin P Rijock</h1>
      </div>
 </template>
 
