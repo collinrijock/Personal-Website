@@ -124,5 +124,8 @@ body {
                opacity:0;
           }
      }
+     #hero {
+          font-family: 'Roboto', sans-serif;
+     }
 }
 </style>
