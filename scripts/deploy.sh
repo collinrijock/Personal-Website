@@ -5,5 +5,5 @@ read msg
 git commit -am "'$msg'"
 git push
 echo "Changes pushed"
-ssh collin@collinrijock.dev 'bash -s' < ./scripts/serverUpdate.sh
+ssh root@collinrijock.dev 'bash -s' < ./scripts/serverUpdate.sh
 echo "Changes deployed"

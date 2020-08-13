@@ -11,6 +11,7 @@
     "animejs": "^3.2.0",
     "jquery": "^3.5.1",
     "parallax-js": "^3.1.0",
+    "three.js": "^0.77.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
