@@ -12,6 +12,15 @@
                <div data-depth="0.6" id="subheader">Software Engineer</div>
           </section>
           <section id="hero">
+               <div id="about-container">
+                    <h3>About me</h3>
+                    <div id="about">
+                         <p>A software engineer from Miami, enrolled at Stony Brook Univeristy for CS.</p>
+                         <a href="https://collinrijock.dev/Resume.pdf">Resume</a>
+                         <a href="https://github.com/collinrijock?tab=repositories">Github</a>
+                         <a href="https://www.linkedin.com/in/collin-rijock-62116a1b5/">LinkedIn</a>
+                    </div>
+               </div>
                <div id="projects-container">
                     <h3>Projects</h3>
                     <!-- <Projects></Projects> -->
@@ -28,8 +37,7 @@ import anime from "animejs";
 import Parallax from "parallax-js";
 export default {
      data() {
-          return {
-          };
+          return {};
      },
      methods: {
           initialAnimation() {
@@ -44,7 +52,7 @@ export default {
                     delay: anime.stagger(70),
                     opacity: [{ value: 0, duration: 70 }, { value: 1 }],
                     complete: (anim) => {
-                         $('#subtitle').css('opacity','1');
+                         $("#subtitle").css("opacity", "1");
                     },
                });
           },
@@ -74,6 +82,7 @@ body {
      width: 100%;
      background: #ffea46;
      background-size: cover;
+     color: #191923;
      #splash {
           width: 100vw;
           height: 100vh;
@@ -107,6 +116,7 @@ body {
                     color: #191923;
                     font-size: 4rem;
                     opacity: 0;
+                    filter: drop-shadow(0 3px 3px rgb(129, 129, 129));
                }
           }
           #first-name {
@@ -121,11 +131,41 @@ body {
                grid-row: 10;
                font-family: "tofino";
                color: #191923;
-               opacity:0;
+               filter: drop-shadow(0 1px 1px rgb(129, 129, 129));
           }
      }
      #hero {
-          font-family: 'Roboto', sans-serif;
+          font-family: "Roboto", sans-serif;
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+          justify-content: space-around;
+          #about-container {
+               display: flex;
+               flex-flow: column nowrap;
+               align-items: center;
+               justify-content: space-around;
+               h3 {
+               }
+               #about {
+                    display: flex;
+                    flex-flow: column nowrap;
+                    align-items: center;
+                    justify-content: space-around;
+                    p {
+                    }
+                    a {
+                    }
+               }
+          }
+          #project-container {
+               display: flex;
+               flex-flow: column nowrap;
+               align-items: center;
+               justify-content: space-around;
+               h3 {
+               }
+          }
      }
 }
 </style>
