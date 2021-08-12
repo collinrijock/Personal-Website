@@ -1,11 +1,12 @@
 <template>
   <div>
     <h1>Collin Rijock</h1>
-    <h3>Software Developer @ FIU</h3>
+    <h3>CoFounder @ KabCash <br>Software Dev @ FIU</h3>
     <div>
       <a href="mailto:collinrijock@gmail.com">collinrijock@gmail.com</a>
       <a href="https://github.com/collinrijock">Github</a>
       <a href="./resume.pdf" target="blank">Resume</a>
+      <a href="https://linkedin.com/in/collin-rijock/" target="blank">LinkedIn</a>
     </div>
 
   </div>
@@ -45,6 +46,8 @@ div {
 
   a{
     padding: 0px 15px;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 600;
   }
 
 }
