@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d21c5c8e.css",
+    "main.js": "/static/js/main.09ec89f2.js",
+    "static/js/787.949ba037.chunk.js": "/static/js/787.949ba037.chunk.js",
+    "static/media/phones.png": "/static/media/phones.bd4a34d74b676ac52e30.png",
+    "static/media/frontendtech.svg": "/static/media/frontendtech.0b51eae45f61029741e8751de3b4a697.svg",
+    "static/media/CodecColdExtraBold.svg": "/static/media/CodecColdExtraBold.097205d6deca9c49ab00.svg",
+    "static/media/AbhayaLibre-Regular.ttf": "/static/media/AbhayaLibre-Regular.e499645cd70dd9f19c67.ttf",
+    "static/media/lineto-circular-black-c.svg": "/static/media/lineto-circular-black-c.0b704d5114358bc9cae2.svg",
+    "static/media/lineto-circular-book-c.svg": "/static/media/lineto-circular-book-c.582393f3646e337a16f9.svg",
+    "static/media/CodecColdExtraBold.eot": "/static/media/CodecColdExtraBold.511e693f88702eeddcb8.eot",
+    "static/media/CodecColdExtraBold.ttf": "/static/media/CodecColdExtraBold.02fa1c073f2e1507d245.ttf",
+    "static/media/pipes.png": "/static/media/pipes.7893ddff87ad84a1c1ab.png",
+    "static/media/lineto-circular-black-c.ttf": "/static/media/lineto-circular-black-c.6433e67329bab418a126.ttf",
+    "static/media/lineto-circular-book-c.ttf": "/static/media/lineto-circular-book-c.5ceef6bf70e91cd6e891.ttf",
+    "static/media/lineto-circular-black-c.woff": "/static/media/lineto-circular-black-c.fab790bea258c45a96db.woff",
+    "static/media/CodecColdExtraBold.woff": "/static/media/CodecColdExtraBold.9e87c237786c5b3842ca.woff",
+    "static/media/lineto-circular-book-c.woff": "/static/media/lineto-circular-book-c.141aa719c8fcb6dd8beb.woff",
+    "static/media/lineto-circular-black-c.eot": "/static/media/lineto-circular-black-c.75fda1efbb00bd155120.eot",
+    "static/media/lineto-circular-book-c.eot": "/static/media/lineto-circular-book-c.6e811c1570a6da15d89f.eot",
+    "static/media/CodecColdExtraBold.woff2": "/static/media/CodecColdExtraBold.4385661a1818a30bbba4.woff2",
+    "static/media/header.svg": "/static/media/header.5e35000fcee9ddfe154aa4dd8d372344.svg",
+    "static/media/logo.svg": "/static/media/logo.9b39bc2cf690fc36d0f2c1e923794307.svg",
+    "index.html": "/index.html",
+    "static/media/Arrow 1.svg": "/static/media/Arrow 1.402521967c0f6d9bd76f05ceb81320fe.svg",
+    "main.d21c5c8e.css.map": "/static/css/main.d21c5c8e.css.map",
+    "main.09ec89f2.js.map": "/static/js/main.09ec89f2.js.map",
+    "787.949ba037.chunk.js.map": "/static/js/787.949ba037.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d21c5c8e.css",
+    "static/js/main.09ec89f2.js"
+  ]
+}
